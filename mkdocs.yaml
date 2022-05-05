@@ -25,7 +25,8 @@ plugins:
 
 theme:
   name: material
-  palette:
-    primary: deep green
   features:
     - search.highlight
+
+extra_css:
+  - stylesheets/extra.css
