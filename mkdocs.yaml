@@ -1,6 +1,6 @@
 site_name: Documentation
 site_url: https://radiofm015789.pages.github.io/
-repo_url: https://github.com/rradiofm015789/radiofm015789.github.io.git
+repo_url: https://github.com/radiofm015789/radiofm015789.github.io.git
 docs_dir: docs
 
 markdown_extensions:
