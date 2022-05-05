@@ -1,0 +1,31 @@
+site_name: Documentation
+site_url: https://radiofm015789.pages.github.io/
+repo_url: https://github.com/rradiofm015789/radiofm015789.github.io.git
+docs_dir: docs
+
+markdown_extensions:
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/radiofm015789
+      name: My Twitter
+
+plugins:
+  - search:
+      min_search_length: 3
+      prebuild_index: true
+      lang: en
+
+  - awesome-pages:
+        collapse_single_pages: true
+        strict: false
+
+theme:
+  name: material
+  palette:
+    primary: deep green
+  features:
+    - search.highlight
